@@ -10,8 +10,8 @@ Hight = int(input())
 x = Hight/100
 BMI = Wight/(x*x)
 
-#print(BMI)
-type(BMI)
+print(BMI)
+print(type(BMI))
 
 # 排序
 a = [50, 20, 60, 40, 30]
