@@ -44,15 +44,19 @@ clone HTTPS
 	`git clone https://github.com/FinleyLi/109-TSH_Python_3.8.3.git`
 
 select file
-	```
+```
 	cd /github/109.../
 	git add README.md
 	git commit-m 'add git clone use and push'
 	git push
 	username/mail
 	password
-	```
+```
+
+error use `git pull`
+
 =======
 # 109-TSH_Python_3.8.3
 紀錄109學年度資處科一年級程式語言與設計的上課範例
->>>>>>> 0415e2b3197c1b123f962f7a8fe8ad909fc4af00
+
+
