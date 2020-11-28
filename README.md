@@ -11,32 +11,43 @@
 
 作業: 程式實作
 
-git setup
+###git setup
+
 install git
-'''
+```
 	apt-get install git
 	git --version
-'''
+```
 
 setup account
-'''
+```
 	git config --global user.name "<>"
 	git config --global user.email "<>"
-'''
+```
 
 add repository
-'''
+```
 	mkdir helloGit
 	cd helloGit
 	git init
 	ls -la
-'''
+```
 
 watch status
-	'git status'
+	`git status`
 
-clone SSH/HTTPS
-	'git clone git@github.com:FinleyLi/109-TSH_Python_3.8.3.git'
-	'git clone https://github.com/FinleyLi/109-TSH_Python_3.8.3.git'
+clone SSH
+	`git clone git@github.com:FinleyLi/109-TSH_Python_3.8.3.git`
 
+clone HTTPS
+	`git clone https://github.com/FinleyLi/109-TSH_Python_3.8.3.git`
 
+select file
+	```
+	cd /github/109.../
+	git add README.md
+	git commit-m 'add git clone use and push'
+	git push
+	username/mail
+	password
+	```
