@@ -3,7 +3,7 @@
 ### 軟體版本【Anaconda】 - 1.9.12，【Python】 - 3.8.3
 
 ##### 評分方式
-=====================
+
 第一次段考: 筆試
 
 第二次段考: 上機實作
@@ -26,8 +26,8 @@ install git
 
 setup account
 ```
-	git config --global user.name "<>"
-	git config --global user.email "<>"
+	git config --global user.name "<name>"
+	git config --global user.email "<E-mail>"
 ```
 
 add repository
@@ -51,7 +51,7 @@ select file
 ```
 	cd /github/109.../
 	git add README.md
-	git commit-m 'add git clone use and push'
+	git commit -m 'add git use clone and push'
 	git push
 	username/mail
 	password
